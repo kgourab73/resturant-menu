@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+}
+
+.flex-center, .container .cards, header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header {
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.65)), url(https://images.unsplash.com/photo-1574172368358-4898a80133c7?q=80&w=1802&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+header h1 {
+  font-size: 3.5rem;
+}
+header p {
+  margin-top: 20px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+}
+.container .cards {
+  flex-direction: row;
+}
+.container .cards .card {
+  border: 0.6px solid rgb(168, 168, 168);
+  width: 500px;
+  height: 540px;
+  padding: 20px;
+  margin: 20px;
+}
+.container .cards .card-img, .container .cards .img-four, .container .cards .img-three, .container .cards .img-two {
+  background-image: url(https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+.container .cards .img-two {
+  background-image: url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.container .cards .img-three {
+  background-image: url("https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.container .cards .img-four {
+  background-image: url("https://images.unsplash.com/photo-1555243896-c709bfa0b564?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.container .cards p {
+  margin-bottom: 2rem;
+  max-width: 300px;
+  line-height: 1.4;
+  color: rgb(96, 96, 96);
+}
+.container .cards .card-title {
+  margin-bottom: 20px;
+  color: rgb(28, 28, 28);
+}
+.container .cards .primary-btn {
+  text-decoration: none;
+  color: #515151;
+  padding: 10px 20px;
+  border: 1px solid #515151;
+}
+.container .cards .primary-btn:hover {
+  background: rgb(206, 41, 157);
+  color: white;
+}/*# sourceMappingURL=style.css.map */
